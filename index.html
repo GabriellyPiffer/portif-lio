@@ -1,97 +1,481 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portifolio</title>
-    <link rel = "stylesheet" href = "style.css">
+
+    <meta name="description"
+        content="Portfólio de Gabrielly Teixeira Piffer - Estudante de Desenvolvimento de Sistemas.">
+
+    <title>Gabrielly Teixeira Piffer | Portfólio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-     <header>
-        <h1>Gabrielly Teixeira Piffer</h1>
-        <nav>
-            <ul>
-                <li><a href ="#sobre">Sobre</a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
+
+    <header class="header">
+        <div class="logo">
+            Gabrielly<span>.</span>
+        </div>
+
+        <nav class="nav">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#formacao">Formação</a>
+            <a href="#tecnologias">Tecnologias</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
         </nav>
     </header>
-     <section id = "sobre">
-        <div class = "container">
-            <div class = "sobre-mim">
-                <img src="WhatsApp Image 2025-09-02 at 16.31.05.jpeg" alt="foto" class="foto-perfil">
-                <div class="sobre-informacoes">
-                    <h2>Sobre mim</h2>
-                    <p>Turma de Desenvolvimento de Sistemas - 2º  Semestre - SESI</p>
-                    <p>Atualmente, curso o 2º semestre de Desenvolvimento de Sistemas no SENAI-SP e o Ensino Médio no SESI-SP. Tenho grande interesse em seguir carreira na área de Biomedicina Estética, mantendo a área de TI como plano secundário. Busco oportunidades para adquirir experiência profissional e me dedico constantemente aos estudos para alcançar meus objetivos.</p>
+
+
+    <main>
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-text">
+
+                <p class="mini-title">Olá, eu sou a Gabrielly Teixeira Piffer 🌸</p>
+
+                <h1>
+                    Estudante de
+                    <span>Desenvolvimento de Sistemas</span>
+                </h1>
+
+                <p class="hero-description">
+                    Atualmente estou no 3º ano do Ensino Médio e curso
+                    Desenvolvimento de Sistemas pelo SENAI-SP.
+                    Gosto de tecnologia, desenvolvimento de aplicações
+                    e estou sempre buscando aprender coisas novas.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projetos" class="button primary">
+                        Ver meus projetos
+                    </a>
+
+                    <a href="#contato" class="button secondary">
+                        Entre em contato
+                    </a>
                 </div>
+
             </div>
-        </div>
-    </section>
-    <section id = "formacao">
-        <div class = "container">
-            <h2>Formação</h2>
-                <div class="cards">
-                     <div class = "card">
-                    <p>Cursando Ensino Medio SESI-CE 356</p>
+
+            <div class="hero-image">
+
+                <div class="flower-decoration">🌿</div>
+
+                <img src="assets/perfil.jpeg" alt="Foto de Gabrielly Teixeira Piffer" class="foto-perfil">
+
+                <div class="floating-card">
+                    <span>💻</span>
+                    <p>Desenvolvimento<br>de Sistemas</p>
                 </div>
-                <div class = "card">
-                    <p>Cursando Desenvolvimento de Sistemas - 2º  Semestre - SESI</p>
-                </div>
-                </div>
+
             </div>
-        </div>
-    </section>
-        <section id = "projetos">
-        <div class = "container">
-            <h2>Projetos</h2>
-                <div class="cards">
-                     <div class = "card">
-                    <p>SESI IEGL</p>
-                    <a href = "https://www.canva.com/design/DAGnWMTpSlk/P7Drb7eIdgsd8a3-E1ELYg/edit?utm_content=DAGnWMTpSlk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img src="Captura de tela 2025-09-02 154735.png" alt="foto" class="foto-projeto"></a>
-                </div>
-                <div class = "card">
-                    <p>Documento de Requisitos</p>
-                    <a href="https://www.canva.com/design/DAGlo0R-drk/XoTDUuIy-O77l9FqzM10hw/edit?utm_content=DAGlo0R-drk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><img src="projeto.png" alt="foto" class="foto-projeto2"></a>
-                </div>
-                </div>
+
+        </section>
+
+
+
+        <section id="sobre" class="section">
+
+            <div class="section-title">
+                <span>01</span>
+                <h2>Sobre mim</h2>
             </div>
-        </div>
-    </section>
-    <section id = "skills">
-        <div class = "container">
-            <h2>Skills</h2>
-                <div class="cards">
-                     <div class = "card">
-                    <p>.Resolução de problemas</p>
-                    <p>.responsabilidade</p>
-                    <p>.Conhecimento em tecnologia</p>
-                    <p>.Determinação</p>
-                    <p>.Trabalho em equipe</p>
-                    <p>.Empatia</p>
-                    <p>.Aprendizagem contínua</p>
+
+            <div class="about-card">
+
+                <div class="about-icon">
+                    🌷
                 </div>
+
+                <div>
+                    <h3>Quem sou eu?</h3>
+
+                    <p>
+                    Meu nome é Gabrielly Teixeira Piffer e sou estudante do 3º ano do Ensino Médio e do curso técnico de
+                    Desenvolvimento de Sistemas pelo SENAI-SP. Tenho interesse pela área de tecnologia e gosto de
+                    aprender na prática, desenvolvendo projetos e conhecendo novas ferramentas.
+                    </p>
+                    <p>
+                    Durante minha formação, venho adquirindo conhecimentos em desenvolvimento web, mobile e backend,
+                    trabalhando com tecnologias como HTML, CSS, JavaScript, Dart, Flutter, Node.js, Express, bancos de
+                    dados e APIs. Também tenho conhecimentos em Power BI.
+                    </p>
+                    <p>
+                    Sou uma pessoa responsável, dedicada, curiosa e gosto de trabalhar em equipe. Estou sempre buscando
+                    melhorar meus conhecimentos e aprender com novos desafios. Meu objetivo é conquistar uma
+                    oportunidade de estágio na área de Desenvolvimento de Sistemas, colocando em prática o que venho
+                    aprendendo e adquirindo experiência profissional.
+                    </p>
+                </div>
+
             </div>
-        </div>
-    </section>
-     <section id = "contato">
-        <div class = "container">
-            <h2>Contato</h2>
-                <div class="cards">
-                     <div class = "card">
-                    <p>📷 Instagram: gaby.piffer</p>
-                </div>
-                <div class = "card">
-                    <p>📧 E-mail: gtpiffer@gmail.com</p>
-                </div>
-                <div class = "card">
-                    <p>📞 Telefone: (19) 99697-6467</p>
-                </div>
-                </div>
+
+        </section>
+
+        <section id="formacao" class="section">
+
+            <div class="section-title">
+                <span>02</span>
+                <h2>Formação</h2>
             </div>
-        </div>
-    </section>
+
+            <div class="cards">
+
+                <div class="card formation-card">
+
+                    <div class="card-icon">
+                        🎓
+                    </div>
+
+                    <div>
+                        <h3>Ensino Médio</h3>
+
+                        <p>
+                            3º ano do Ensino Médio
+                        </p>
+
+                        <small>
+                            SESI-SP
+                        </small>
+                    </div>
+
+                </div>
+
+
+                <div class="card formation-card">
+
+                    <div class="card-icon">
+                        💻
+                    </div>
+
+                    <div>
+                        <h3>Desenvolvimento de Sistemas</h3>
+
+                        <p>
+                            Curso Técnico em Desenvolvimento de Sistemas
+                        </p>
+
+                        <small>
+                            SENAI-SP
+                        </small>
+                    </div>
+
+                </div>
+
+
+                <div class="card formation-card">
+
+                    <div class="card-icon">
+                        📊
+                    </div>
+
+                    <div>
+                        <h3>Power BI</h3>
+
+                        <p>
+                            Curso de Power BI
+                        </p>
+
+                        <small>
+                            SENAI-SP
+                        </small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="tecnologias" class="section">
+
+            <div class="section-title">
+                <span>03</span>
+                <h2>Tecnologias</h2>
+            </div>
+
+            <p class="section-description">
+                Algumas das tecnologias e ferramentas que venho estudando
+                durante minha formação.
+            </p>
+
+            <div class="technology-grid">
+
+                <div class="technology">
+                    <span>🌐</span>
+                    <h3>HTML</h3>
+                    <p>Estrutura de páginas web</p>
+                </div>
+
+                <div class="technology">
+                    <span>🎨</span>
+                    <h3>CSS</h3>
+                    <p>Estilização e responsividade</p>
+                </div>
+
+                <div class="technology">
+                    <span>⚡</span>
+                    <h3>JavaScript</h3>
+                    <p>Interatividade e lógica</p>
+                </div>
+
+                <div class="technology">
+                    <span>🎯</span>
+                    <h3>Dart</h3>
+                    <p>Lógica e desenvolvimento</p>
+                </div>
+
+                <div class="technology">
+                    <span>📱</span>
+                    <h3>Flutter</h3>
+                    <p>Desenvolvimento mobile</p>
+                </div>
+
+                <div class="technology">
+                    <span>🟢</span>
+                    <h3>Node.js</h3>
+                    <p>Desenvolvimento backend</p>
+                </div>
+
+                <div class="technology">
+                    <span>🚀</span>
+                    <h3>Express</h3>
+                    <p>APIs e backend</p>
+                </div>
+
+                <div class="technology">
+                    <span>🗄️</span>
+                    <h3>MySQL</h3>
+                    <p>Banco de dados</p>
+                </div>
+
+                <div class="technology">
+                    <span>🔧</span>
+                    <h3>Prisma</h3>
+                    <p>ORM para banco de dados</p>
+                </div>
+
+                <div class="technology">
+                    <span>📊</span>
+                    <h3>Power BI</h3>
+                    <p>Dados e visualizações</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="projetos" class="section projects-section">
+
+            <div class="section-title">
+                <span>04</span>
+                <h2>Meus projetos</h2>
+            </div>
+
+            <p class="section-description">
+                Alguns projetos desenvolvidos durante minha formação.
+            </p>
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img src="assets/Captura de tela 2025-09-02 154735.png" alt="Projeto SESI IEGL">
+
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">
+                        PROJETO 01
+                    </span>
+
+                    <h3>SESI IEGL</h3>
+
+                    <p>
+                        Projeto desenvolvido durante minha formação,
+                        envolvendo planejamento, desenvolvimento e
+                        apresentação de uma solução.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Projeto escolar</span>
+                        <span>Desenvolvimento</span>
+                        <span>Equipe</span>
+                    </div>
+
+                    <a href="https://www.canva.com/design/DAGnWMTpSlk/P7Drb7eIdgsd8a3-E1ELYg/edit?utm_content=DAGnWMTpSlk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                        target="_blank" class="project-button">
+
+                        Ver projeto →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card reverse">
+
+                <div class="project-image video-container">
+
+                    <video autoplay loop muted playsinline>
+                        <source src="assets/cep.mp4" type="video/mp4">
+
+                        Seu navegador não suporta vídeos.
+                    </video>
+
+                    <div class="video-label">
+                        ▶ Demonstração do aplicativo
+                    </div>
+
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-number">
+                        PROJETO 02
+                    </span>
+
+                    <h3>Projeto CEP</h3>
+
+                    <p>
+                        Aplicativo desenvolvido em Flutter para cadastro
+                        e consulta de pessoas utilizando informações
+                        de endereço através do CEP.
+                    </p>
+
+                    <p>
+                        O projeto utiliza integração com a API ViaCEP
+                        e armazenamento local dos dados cadastrados.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Flutter</span>
+                        <span>Dart</span>
+                        <span>ViaCEP</span>
+                        <span>API</span>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+
+        <section id="habilidades" class="section">
+
+            <div class="section-title">
+                <span>05</span>
+                <h2>Habilidades</h2>
+            </div>
+
+            <div class="skills-container">
+
+                <div class="skills-card">
+
+                    <h3>💻 Técnicas</h3>
+
+                    <ul>
+                        <li>Desenvolvimento Web</li>
+                        <li>Desenvolvimento Mobile</li>
+                        <li>Backend</li>
+                        <li>Banco de Dados</li>
+                        <li>APIs</li>
+                        <li>Git e GitHub</li>
+                    </ul>
+
+                </div>
+
+
+                <div class="skills-card">
+
+                    <h3>🌿 Pessoais</h3>
+
+                    <ul>
+                        <li>Responsabilidade</li>
+                        <li>Trabalho em equipe</li>
+                        <li>Resolução de problemas</li>
+                        <li>Determinação</li>
+                        <li>Aprendizagem contínua</li>
+                        <li>Organização</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section id="contato" class="contact-section">
+
+            <div class="contact-content">
+
+                <span>06</span>
+
+                <h2>Entre em contato</h2>
+
+                <p>
+                    Estou em busca de oportunidades para aprender,
+                    desenvolver meus conhecimentos e adquirir
+                    experiência profissional na área de tecnologia.
+                </p>
+
+                <div class="contact-buttons">
+
+                    <a href="mailto:gtpiffer@gmail.com" class="contact-button">
+                        📧 E-mail
+                    </a>
+
+                    <a href="https://www.instagram.com/gaby.piffer" target="_blank" class="contact-button">
+                        📷 Instagram
+                    </a>
+
+                    <a href="https://github.com/gabypiffer" target="_blank" class="contact-button">
+                        💻 GitHub
+                    </a>
+
+                    <a href="tel:+5519996976467" class="contact-button">
+                        📞 Telefone
+                    </a>
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 Gabrielly Teixeira Piffer
+        </p>
+
+        <p>
+            Desenvolvido com 💗 e código.
+        </p>
+
+    </footer>
+
+
 </body>
+
 </html>
+```
